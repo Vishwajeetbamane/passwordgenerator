@@ -28,4 +28,4 @@ if saveyn == "Yes":
 	f = open("generatedpasswords.txt","a")
 	f.write(forwhat + " - " + password+"\n")
 	f.close()
-	
+	print("Your password is succesfully saved in 'generatedpasswords.txt' file.")
