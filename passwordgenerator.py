@@ -4,8 +4,10 @@ import random
 print("Welcone to Password Generator\n")
 
 forwhat = input("Enter the website or application for which you want to generate password:\n")
-length = int(input("Enter the length of password:\n"))
-
+length = int(input("Enter the length of password(Max-94)\n"))
+if length >= 94:
+	print("Max length crossed.") 
+	quit()
 
 s1 = list(string.ascii_lowercase)
 s2 = list(string.ascii_uppercase)
@@ -27,5 +29,3 @@ if saveyn == "Yes":
 	f.write(forwhat + " - " + password+"\n")
 	f.close()
 	
-if saveyn == "No":
-	quit()
