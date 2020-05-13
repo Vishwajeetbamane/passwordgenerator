@@ -9,7 +9,13 @@ We will make a variable i.e. forwhat which will handle for what the password use
 
 We will make another integer variable that will take the length of the password.
  length = int(input("Enter the length of password:\n"))
- 
+The maximum length of password it can create is 94 because there are only 94 elements we are using here that variable elements is handling.
+So of max length crosses it will quit automatically.
+See the statement here:
+  if length >= 94:
+	print("Max length crossed.") 
+	quit()
+
 Then will make four variables for four diffrent groups of different elements that is lowercase and uppercase alphabets,punctuations and numbers.
  s1 = list(string.ascii_lowercase)
  s2 = list(string.ascii_uppercase)
