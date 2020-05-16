@@ -52,9 +52,9 @@ if saveyn == "No":
 
 Here if the input is equal to "Yes" then it will save the password along with website or app(i.e. forwhat variable) to a text file "generatedpasswords.txt".
 
-Now use this program to generate passwords and save them.
-No worry about forgiving you passwords now they are saved in a safe file.
-Thank you.
+
+
+
 
 Author:. Vishwajeet Bamane
 
