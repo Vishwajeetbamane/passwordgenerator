@@ -4,7 +4,7 @@ Generate and save passwords...
 Import the required modules.
  i.e. string and random
  
-We will make a variable i.e. forwhat which will handle for what the password user want to generate.
+We will make a variable i.e. 'forwhat' ,which will handle for what the password user want to generate.
  forwhat = input("Enter the website or application for which you want to generate password:\n")
 
 We will make another integer variable that will take the length of the password.
